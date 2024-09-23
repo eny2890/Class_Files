@@ -16,11 +16,17 @@ This will be a document that we will use as a class to keep track of what we did
 * Discussed alternative metabarcoding bioinformatic pipelines (Qiime2 - https://docs.qiime2.org/2024.5/tutorials/index.html, MBrave -http://mbrave.net/)
 
 #### More Resources on Today's Material (OPTIONAL)
+
 BASH commands - https://www.educative.io/blog/bash-shell-command-cheat-sheet
+
 SLURM for hipergator - https://help.rc.ufl.edu/doc/SLURM_Commands
+
 General information about SLURM - https://blog.ronin.cloud/slurm-intro/
+
 Downloading and using GIT on your computer - https://www.youtube.com/watch?v=r8jQ9hVA2qs
+
 Hipergator GIT practice - https://github.com/UFResearchComputing/git-training 
+
 See "Papers" folder in this repository for PDFs on OBITools (Boyer et al 2015) and general metabarcoding workflow for entomologists (Liu et al 2020)
 
 #### Code we used in class today (Copied from my terminal)
