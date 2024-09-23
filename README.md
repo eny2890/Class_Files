@@ -10,9 +10,9 @@ This will be a document that we will use as a class to keep track of what we did
 * Join our Github Classroom
 * Went over Hipergator Github training: https://ufresearchcomputing.github.io/git-training/
 * Downloaded Git to our personal computers (instructions via training and video listed in resources)
-* Practiced working with Git via the desktop version
-* Practiced working with Git via the command line
+* Practiced working with Git via the desktop GUI
 * Looked over and discussed the obitools metabarcoding tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html
+* Viewed general OBItools workflow: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html 
 * Discussed alternative metabarcoding bioinformatic pipelines (Qiime2 - https://docs.qiime2.org/2024.5/tutorials/index.html, MBrave -http://mbrave.net/)
 
 #### More Resources on Today's Material (OPTIONAL)
