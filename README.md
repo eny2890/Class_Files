@@ -3,7 +3,7 @@ This will be a document that we will use as a class to keep track of what we did
 
 ## Monday, September 23, 2024
 ### Goals
-* Logon to Hipergator - on terminal ssh <username>@hpg.rc.ufl.edu
+* Logon to Hipergator - on terminal ssh username@hpg.rc.ufl.edu
 * Practice Bash
 * Submit first SLURM script
 * Make Github accounts
