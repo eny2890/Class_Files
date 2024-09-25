@@ -1,3 +1,6 @@
+# Class Schedule
+This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
+
 ## Wednesday, September 25, 2024
 ### Goals
 * Join our Github Classroom
@@ -18,9 +21,6 @@
 Downloading and using GIT on your computer - https://www.youtube.com/watch?v=r8jQ9hVA2qs
 
 Hipergator GIT practice - https://github.com/UFResearchComputing/git-training 
-
-# Class Schedule
-This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
 ## Monday, September 23, 2024
 ### Goals
