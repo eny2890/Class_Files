@@ -3,8 +3,9 @@ This will be a document that we will use as a class to keep track of what we did
 
 ## Wednesday, September 25, 2024
 ### Goals
-* Join our Github Classroom
+* Join our Github Classroom (give me your username if you have not already)
 * View our classroom and our repositories
+* Review Monday's material
 * Set up 2fa in git (via settings)
 * Go over Hipergator Github training: https://ufresearchcomputing.github.io/git-training/
 * Download Git to our personal computers (instructions via training and video listed in resources)
