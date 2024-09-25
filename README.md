@@ -10,7 +10,7 @@ This will be a document that we will use as a class to keep track of what we did
 * Go over Hipergator Github training: https://ufresearchcomputing.github.io/git-training/
 * Download Git to our personal computers (instructions via training and video listed in resources)
 * Set up our SSH key in git - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent, https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-* Practice working with Git on the command line
+* Each group make a group repository
 #### If Time
 * Look over and discussed the obitools metabarcoding tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html
 * Viewed general OBItools workflow: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html 
