@@ -4,12 +4,12 @@ This will be a document that we will use as a class to keep track of what we did
 ## Wednesday, September 25, 2024
 ### Goals
 * Join our Github Classroom
+* View our classroom and our repositories
+* Set up 2fa in git (via settings)
 * Go over Hipergator Github training: https://ufresearchcomputing.github.io/git-training/
 * Download Git to our personal computers (instructions via training and video listed in resources)
-* Set up 2fa in git
-* Set up our SSH key in git
-* Practice working with Git via the desktop GUI
-* Commit a comment to a github readme file
+* Set up our SSH key in git - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent, https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+* Practice working with Git on the command line
 #### If Time
 * Look over and discussed the obitools metabarcoding tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html
 * Viewed general OBItools workflow: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html 
