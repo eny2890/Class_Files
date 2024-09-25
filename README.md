@@ -1,3 +1,24 @@
+## Wednesday, September 25, 2024
+### Goals
+* Join our Github Classroom
+* Go over Hipergator Github training: https://ufresearchcomputing.github.io/git-training/
+* Download Git to our personal computers (instructions via training and video listed in resources)
+* Set up 2fa in git
+* Set up our SSH key in git
+* Practice working with Git via the desktop GUI
+* Commit a comment to a github readme file
+#### If Time
+* Look over and discussed the obitools metabarcoding tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html
+* Viewed general OBItools workflow: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html 
+* Discussed alternative metabarcoding bioinformatic pipelines (Qiime2 - https://docs.qiime2.org/2024.5/tutorials/index.html, MBrave -http://mbrave.net/)
+
+#### Notes and Code we used from Class Today
+
+#### More Resources on Today's Materials (OPTIONAL)
+Downloading and using GIT on your computer - https://www.youtube.com/watch?v=r8jQ9hVA2qs
+
+Hipergator GIT practice - https://github.com/UFResearchComputing/git-training 
+
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
@@ -89,27 +110,6 @@ squeue --me
 
 #### To Do For Next Class
 Make github account using ufl email; submit username via assignment on canvas
-
-## Wednesday, September 25, 2024
-### Goals
-* Join our Github Classroom
-* Go over Hipergator Github training: https://ufresearchcomputing.github.io/git-training/
-* Download Git to our personal computers (instructions via training and video listed in resources)
-* Set up 2fa in git
-* Set up our SSH key in git
-* Practice working with Git via the desktop GUI
-* Commit a comment to a github readme file
-#### If Time
-* Look over and discussed the obitools metabarcoding tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html
-* Viewed general OBItools workflow: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html 
-* Discussed alternative metabarcoding bioinformatic pipelines (Qiime2 - https://docs.qiime2.org/2024.5/tutorials/index.html, MBrave -http://mbrave.net/)
-
-#### Notes and Code we used from Class Today
-
-#### More Resources on Today's Materials (OPTIONAL)
-Downloading and using GIT on your computer - https://www.youtube.com/watch?v=r8jQ9hVA2qs
-
-Hipergator GIT practice - https://github.com/UFResearchComputing/git-training 
 
 See "Papers" folder in this repository for PDFs on OBITools (Boyer et al 2015) and general metabarcoding workflow for entomologists (Liu et al 2020)
 
