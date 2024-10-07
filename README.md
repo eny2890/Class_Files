@@ -4,11 +4,20 @@ This will be a document that we will use as a class to keep track of what we did
 ## Monday, October 7, 2024
 ### Goals
 * Create individual group repositories
-* In hipergator, each person commit to 
-* Go over obitool tutorial: 
-* Make a database of microlepidopteran taxonomic information from BOLD and NCBI
-* 
+* In hipergator, each person commit their name to their individual group repository
+* Go over obitool tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html#filter-database-and-query-sequences-by-id-to-re-associate-informations-with-filter-sequences-by-id 
+* Make a database of micro lepidopteran taxonomic information from BOLD and NCBI
+#### If time 
+* Make a database of micro lepidopteran sequences
+* Run simulated PCR using ecoPCR
 
+#### Notes and Code we used from class today
+
+
+
+# More resources on today's material (Optional)
+ Obitool background - https://pythonhosted.org/OBITools/welcome.html
+ 
   
 
 ## Wednesday, September 25, 2024
@@ -27,7 +36,8 @@ This will be a document that we will use as a class to keep track of what we did
 * Discussed alternative metabarcoding bioinformatic pipelines (Qiime2 - https://docs.qiime2.org/2024.5/tutorials/index.html, MBrave -http://mbrave.net/)
 
 #### Notes and Code we used from Class Today
-Mac users - install github 
+Mac users - install github via homebrew
+Windows users use link from hipergator tutorial on git
 
 #### More Resources on Today's Materials (OPTIONAL)
 Downloading and using GIT on your computer - https://www.youtube.com/watch?v=r8jQ9hVA2qs
