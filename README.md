@@ -1,6 +1,16 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
+## Monday, October 7, 2024
+### Goals
+* Create individual group repositories
+* In hipergator, each person commit to 
+* Go over obitool tutorial: 
+* Make a database of microlepidopteran taxonomic information from BOLD and NCBI
+* 
+
+  
+
 ## Wednesday, September 25, 2024
 ### Goals
 * Join our Github Classroom (give me your username if you have not already)
@@ -17,6 +27,7 @@ This will be a document that we will use as a class to keep track of what we did
 * Discussed alternative metabarcoding bioinformatic pipelines (Qiime2 - https://docs.qiime2.org/2024.5/tutorials/index.html, MBrave -http://mbrave.net/)
 
 #### Notes and Code we used from Class Today
+Mac users - install github 
 
 #### More Resources on Today's Materials (OPTIONAL)
 Downloading and using GIT on your computer - https://www.youtube.com/watch?v=r8jQ9hVA2qs
