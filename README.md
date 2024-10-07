@@ -3,23 +3,81 @@ This will be a document that we will use as a class to keep track of what we did
 
 ## Monday, October 7, 2024
 ### Goals
-* Create individual group repositories
-* In hipergator, each person commit their name to their individual group repository
-* Go over obitool tutorial: https://training.galaxyproject.org/training-material/topics/ecology/tutorials/Obitools-metabarcoding/tutorial.html#filter-database-and-query-sequences-by-id-to-re-associate-informations-with-filter-sequences-by-id 
-* Make a database of micro lepidopteran taxonomic information from BOLD and NCBI
-#### If time 
-* Make a database of micro lepidopteran sequences
-* Run simulated PCR using ecoPCR
+* Perform NCBI taxonomy dump
+* Submit script for BOLD fasta download
+* Set up script for NCBI fasta download (format script and download api key into directory)
+### To Do before next Monday
+* After you get an email that your BOLD script is done, submit the formated NCBI script (ncbi_lepidoptera_fasta_STUDENT_NAME.sh) via the sbatch SCRIPT_NAME command on hipergator
 
 #### Notes and Code we used from class today
 
+In today's class, we are going to set up the taxonomic and sequence reference libraries that OBITools, the pipeline we are using to identify the taxa (a generic term for any taxonomical group i.e. species, genera, family, superfamily, etc) by matching our sequence data to.
 
+Note: The database we are generating today is giant, and will be very general - i.e. it contains sequences of microleps from all over the world, not just the US or Florida. It also will contain potentially messy, uncurated sequence data from NCBI. If your group is still looking for a question and finds working with APIs fun, you could potentially as a research question on changing our reference library (i.e. only include well-curated data from BOLD and NCBI, or limiting your sequences to only data from Florida/USA) and see how that impacts our results. 
+
+# OBITools Overview
+
+![image](https://github.com/user-attachments/assets/aeff9db6-518e-4884-b6d2-ec4390800b8a)
+
+Today, we are focusing on generating the NCBI Taxonomy via taxdump, and collecting the reference sequences of already known and identified microleps via NCBI and BOLD's APIs.
+
+APIs (Application based programming interfaces) is a general term for an interface that allows software programs to interact and download or share information with each other. Today, we are using APIs to download taxonomic and sequence data into our terminal. The bash command for commuinicating with an api is wget, although other commands (such as esearch for NCBI) exist via different applications. 
+
+Working with APIs is a  common skill in computer sciences and bioinformatics, and is a skill that you can add to your resume after this class! If you find this fun, you can google other website's APIs and play with downloading and manipulating data via your own terminal (i.e. on your terminal without logging in on hipergator). More APIs (with much more fun data) can be found here: 
+https://medium.com/codex/15-fun-and-interesting-apis-to-use-for-your-next-coding-project-in-2022-86a4ff3a2742
+
+## Using taxdump to download current NCBI Taxonomy
+
+#Logon to hipergator 
+ssh <YOUR_USERNAME>@hpg.rc.ufl.edu
+
+#Navigate to the class folder 
+cd /blue/eny2890
+
+#move into your specific folder
+cd <your_username>/
+  #remember, you can autocomplete this by starting to type your username, then autocompleting it by pushing tab, then enter
+
+#in your folder make a directory called REFERENCE_LIBRARY
+mkdir REFERENCE_LIBRARY
+
+#now we are going to copy data from the share folder into your newly created folder
+cp /blue/eny2890/share/REFERENCE_LIBRARY/* .
+
+#Now you should have 3 different files that all end in .sh, which stands for shell script. We will be using each of them today, starting with ncbi_taxonomydump_STUDENT_NAME.sh
+
+#open ncbi_taxonomydump_STUDENT_NAME.sh with nano
+nano ncbi_taxonomydump_STUDENT_NAME.sh
+   #Edit this script with your email and correct file pathway
+   #Save it with your name in place of student name
+
+#Detour to look at applications on hipergator: https://help.rc.ufl.edu/doc/Applications
+
+#After editing, submit this script to hipergator
+sbatch ncbi_taxonomydump_<YOUR_NAME>.sh 
+
+#check to see if its running 
+squeue --me
+
+At the end of this we will have a taxonomy database that obitools can use!
+
+## BOLD FASTA Download
+
+Bold API - https://v3.boldsystems.org/index.php/resources/api?type=webservices
+
+List of Microlep families - https://en.wikipedia.org/wiki/Microlepidoptera
+
+## NCBI Fasta Download
 
 # More resources on today's material (Optional)
  Obitool background - https://pythonhosted.org/OBITools/welcome.html
- 
-  
 
+ API background - https://aws.amazon.com/what-is/api/#:~:text=APIs%20are%20mechanisms%20that%20enable,use%20Simple%20Object%20Access%20Protocol., https://www.ibm.com/topics/api
+
+ NCBI Taxonomy Dump - https://www.ncbi.nlm.nih.gov/guide/taxonomy/
+
+ NCBI API Key How to - https://support.nlm.nih.gov/kbArticle/?pn=KA-05317
+ 
 ## Wednesday, September 25, 2024
 ### Goals
 * Join our Github Classroom (give me your username if you have not already)
