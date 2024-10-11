@@ -1,6 +1,60 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
+## Script to attempt before class on Monday, October 14, 2024
+In class we started creating a reference library for our metabarcoding project, downloading the most current taxonomy (names) from NCBI as well as FASTA files (identified sequences) from BOLD - . The last step in creating our reference library is downloading micromoth FASTA files from NCBI - . To achieve this we need to do two things - download and install an API key to our Hipergator account, then format and submit the shell script on Hipergator to download the data.
+### Part 1: Downloading and Installing an API key for NCBI onto our Hipergator account
+NCBI requires an API key when downloading a large amount of data onto our computer (or, in our case, our Hipergator storage). This is similar to the SSH key we created for our GitHub accounts a few weeks ago; however, it is all done on our Hipergator account, not our home directory on our computer. This API key works to tell NCBI that we have a verified account and that this is a safe place to download its data. To download and install an API key follow these steps _in order._
 
+1.) Go to this website - https://account.ncbi.nlm.nih.gov/signup/ and sign into NCBI. Once there, your screen should look something like this.
+
+![image](https://github.com/user-attachments/assets/f0ca9a19-9e8f-4de6-b8a4-f7221f38d9d5)
+
+You have two options on how to sign in. You only need to do one or the other:
+
+**Option 1**: Sign in with your Google Account.
+
+Click the "Google Account" button. Then, NCBI will redirect you to another screen to sign in via your normal google account. Sign in using your normal google account information, and then it will redirect you back to NCBI.
+
+![image](https://github.com/user-attachments/assets/53f05148-7d48-4310-8ffe-689a3208e285)
+
+**Option 2:** Sign in with your University of Florida Account.
+
+![image](https://github.com/user-attachments/assets/4887d572-f136-4cfa-9dbd-29b123a8253d)
+
+![image](https://github.com/user-attachments/assets/22ae949e-8ecb-4cec-985a-ec1b80846b54)
+
+2.) Go to your settings, create, and copy an API key.
+
+
+
+
+
+
+
+
+1.) Logon to your Hipergator account via your computer's terminal.
+
+#Use the ssh command and your account information
+
+ssh YOUR_HIPERGATOR_ACCOUNT@hgp.rc.ufl.edu
+
+2.) When you first logon, you should be in your home directory which is where you need to install your API key. But let's double check that you are there by doing this command:
+
+#use the change directory (cd) command followed by ~, which is the code for your home directory
+
+cd ~
+
+3.) Next we need to make a folder in your home directory to store this API key. 
+
+#use the make directory (mkdir) command and then the name of the directory you want. In this case we are going to name the directory .ncbi
+
+mkdir .ncbi
+
+#NOTE: you will not be able to see the directory .ncbi because it starts with a "." that is alright, we don't need to see it, but it is important that we name it this since ncbi will look specifically for a folder called that.
+
+4.) Next we are going to go to NCBI 
+
+### 
 ## Monday, October 7, 2024
 ### Goals
 * Perform NCBI taxonomy dump
