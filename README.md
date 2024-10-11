@@ -1,8 +1,8 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 ## Script to attempt before class on Monday, October 14, 2024
-In class we started creating a reference library for our metabarcoding project, downloading the most current taxonomy (names) from NCBI as well as FASTA files (identified sequences) from BOLD - . The last step in creating our reference library is downloading micromoth FASTA files from NCBI - . To achieve this we need to do two things - download and install an API key to our Hipergator account, then format and submit the shell script on Hipergator to download the data.
-### Part 1: Downloading and Installing an API key for NCBI onto our Hipergator account
+In class we started creating a reference library for our metabarcoding project, downloading the most current taxonomy (names) from NCBI as well as FASTA files (identified sequences) from BOLD - https://www.boldsystems.org/. The last step in creating our reference library is downloading micromoth FASTA files from NCBI - https://www.ncbi.nlm.nih.gov/. To achieve this we need to do two things - download and install an API key to our Hipergator account, then format and submit the shell script on Hipergator to download the data. Before class on Monday, try and install the API key so we can jump right into submitting the NCBI script during our class.
+### Downloading and Installing an API key for NCBI onto our Hipergator account
 NCBI requires an API key when downloading a large amount of data onto our computer (or, in our case, our Hipergator storage). This is similar to the SSH key we created for our GitHub accounts a few weeks ago; however, it is all done on our Hipergator account, not our home directory on our computer. This API key works to tell NCBI that we have a verified account and that this is a safe place to download its data. To download and install an API key follow these steps _in order._
 
 1.) Go to this website - https://account.ncbi.nlm.nih.gov/signup/ and sign into NCBI. Once there, your screen should look something like this.
@@ -19,32 +19,37 @@ Click the "Google Account" button. Then, NCBI will redirect you to another scree
 
 **Option 2:** Sign in with your University of Florida Account.
 
+Click on more sign in options on the bottom, and search for University of Florida. Click on 'University of Florida' when it comes up.
+
 ![image](https://github.com/user-attachments/assets/4887d572-f136-4cfa-9dbd-29b123a8253d)
 
 ![image](https://github.com/user-attachments/assets/22ae949e-8ecb-4cec-985a-ec1b80846b54)
 
-2.) Go to your settings, create, and copy an API key.
+After clicking on University of Florida, it will redirect you to the gatorlink screen to sign in. After you do so, you will redirect back to NCBI.
 
+2.) Go to your account, create, and copy an API key.
 
+After signing in, we need to go to your NCBI account settings. Click on your username in the upper right corner of the screen, and go to 'Account Settings' (see screenshots below).
 
+![image](https://github.com/user-attachments/assets/a47896f9-0766-4f13-b818-f40dd73ee40a)
 
+Your account settings will look like this. Look for the section called 'API Key Management' (you will probably have to scroll down to see it). Copy the string of random letters/numbers listed under the API Key column. You will need that for the next few steps. Note: Your API Key will be a different combination of numbers and letters than the one on the screenshot below, make sure you get your unique API key.
 
+![image](https://github.com/user-attachments/assets/b86f630b-f6f0-472b-90cc-172ae5a8caf4)
 
-
-
-1.) Logon to your Hipergator account via your computer's terminal.
+3.) Logon to your Hipergator account via your computer's terminal.
 
 #Use the ssh command and your account information
 
 ssh YOUR_HIPERGATOR_ACCOUNT@hgp.rc.ufl.edu
 
-2.) When you first logon, you should be in your home directory which is where you need to install your API key. But let's double check that you are there by doing this command:
+4.) When you first logon, you should be in your home directory which is where you need to install your API key. But let's double check that you are there by doing this command:
 
 #use the change directory (cd) command followed by ~, which is the code for your home directory
 
 cd ~
 
-3.) Next we need to make a folder in your home directory to store this API key. 
+5.) Next we need to make a folder in your home directory to store this API key. 
 
 #use the make directory (mkdir) command and then the name of the directory you want. In this case we are going to name the directory .ncbi
 
@@ -52,16 +57,30 @@ mkdir .ncbi
 
 #NOTE: you will not be able to see the directory .ncbi because it starts with a "." that is alright, we don't need to see it, but it is important that we name it this since ncbi will look specifically for a folder called that.
 
-4.) Next we are going to go to NCBI 
+4.) Make a file called 'api_key' with your API key pasted into it.
 
-### 
+#First, lets move into our directory '.ncbi' by typing the command change directory, followed by .ncbi
+
+cd .ncbi
+
+#now let's create a text document called 'api_key' using our bash text editor, nano
+
+nano api_key
+
+Note: Remember to use an _ and no spaces when naming text files
+
+This command should have opened up a blank text file. Paste the API key that you copied in step 2 into your terminal. If you are having trouble pasting, try right-clicking. It will look something like the picture below.
+
+![image](https://github.com/user-attachments/assets/01271a1c-1ec2-4360-bdb9-ff989a0339af)
+
+Exit from nano by hitting ctrl/x, hit y then enter to save it with the name 'api_key'
+
+Now you have your API key ready and will be able to edit and submit the script on Monday as a class!
+
 ## Monday, October 7, 2024
 ### Goals
 * Perform NCBI taxonomy dump
 * Submit script for BOLD fasta download
-* Set up script for NCBI fasta download (format script and download api key into directory)
-### To Do before next Monday
-* After you get an email that your BOLD script is done, submit the formated NCBI script (ncbi_lepidoptera_fasta_STUDENT_NAME.sh) via the sbatch SCRIPT_NAME command on hipergator
 
 #### Notes and Code we used from class today
 
@@ -120,8 +139,6 @@ At the end of this we will have a taxonomy database that obitools can use!
 Bold API - https://v3.boldsystems.org/index.php/resources/api?type=webservices
 
 List of Microlep families - https://en.wikipedia.org/wiki/Microlepidoptera
-
-## NCBI Fasta Download
 
 # More resources on today's material (Optional)
  Obitool background - https://pythonhosted.org/OBITools/welcome.html
