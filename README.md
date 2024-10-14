@@ -1,5 +1,57 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
+## Monday, October 14, 2024
+### Goals for Today:
+* Make sure you have the NCBI API key installed and in the right spot in your Hipergator account (see "To Do Before Class on October 14, 2024 section" below for instructions)
+* Copy, format, and submit ncbi_lepidoptera_fasta_oct1424_YOURNAME.sh
+* Copy and format eco_pcr_YOURNAME.sh
+### To Do after class:
+* Once you receive an email that your original script, 'ncbi_lepidoptera_fasta_oct1224_YOURNAME.sh' has run, submit your already formatted script, 'ecopcr_YOURNAME.sh'
+
+### Pulling Micro_moth data from NCBI via their API
+NOTE: You must have the NCBI API key installed on your Hipergator before you begin, or this script will fail
+
+#Logon to Hipergator
+ssh YOURUSERNAME@hpg.rc.ufl.edu
+
+#Check to make sure you have the NCBI API Key in the correct location
+cd ~
+cd .ncbi
+ls
+  #if you have the API key installed correctly you should see a file called 'api_key'
+  #if you do not have a file called 'api_key' follow the instructions below again to install one
+
+#navigate to class folder
+cd /blue/eny2890/YOURFOLDER/REFERENCE_LIBRARY
+
+#remove old NCBI fasta script
+ls
+rm ncbi_lepidoptera_fasta_STUDENTNAME.sh
+
+#copy new NCBI fasta script and ecoPCR script into your folder 
+cp /blue/eny2890/share/OCT1424/* .
+
+#check to see if it transferred
+ls
+  #now you should see two files there, "ncbi_lepidoptera_fasta_oct1424_YOURNAME.sh" and "ecopcr_YOURNAME.sh". These are the scripts we will be working with today
+
+#edit "ncbi_lepidoptera_fasta_oct1424_YOURNAME.sh"
+nano ncbi_lepidoptera_fasta_oct1424_YOURNAME.sh
+  #change the email at the top to your email 
+  #change the file pathway to your folder (i.e. replace YOURFOLDER with your folder name, which is your hipergator user account)
+  #ctrl/X to exit, save with a your name in place of YOURNAME 
+
+#submit the script
+sbatch ncbi_lepidoptera_fasta_oct1424_YOURNAME #make sure it is the edited version with your actual name!
+  #wait a little bit for the email, and then make sure the script ran without any issues
+
+### Formating ecoPCR script
+
+
+#### More Resources from today's material
+https://pythonhosted.org/OBITools/scripts/ecoPCR.html - ecoPCR
+https://dknet.org/data/record/nlx_144509-1/RRID:SCR_016082/resolver/pdf&i=rrid:scr_016082 - ecoPCR
+
 ## Attempt this before class on Monday, October 14, 2024 
 In class we started creating a reference library for our metabarcoding project, downloading the most current taxonomy (names) from NCBI as well as FASTA files (identified sequences) from BOLD - https://www.boldsystems.org/. The last step in creating our reference library is downloading micromoth FASTA files from NCBI - https://www.ncbi.nlm.nih.gov/. To achieve this we need to do two things - download and install an API key to our Hipergator account, then format and submit the shell script on Hipergator to download the data. Before class on Monday, try and install the API key so we can jump right into submitting the NCBI script during our class.
 ### Downloading and Installing an API key for NCBI onto our Hipergator account
