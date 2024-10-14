@@ -217,7 +217,13 @@ At the end of this we will have a taxonomy database that obitools can use!
 
 #open that folder using nano
 
-nano bold_lepidoptera_fasta
+nano bold_lepidoptera_fasta_STUDENT_NAME.sh
+
+#change the email at the top to yours, and change the folder names to yours
+#the last line at the top that starts with #, remove the -b at the end of 
+#ctrl/x to exit, save it with your name in place of STUDNET_NAME
+
+#submit
 
 #edit this script in three lcoations 
 
