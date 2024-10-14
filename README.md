@@ -34,7 +34,7 @@ cd /blue/eny2890/YOURFOLDER/REFERENCE_LIBRARY
 
 ls
 
-rm ncbi_lepidoptera_fasta_STUDENTNAME.sh
+rm ncbi_lepidoptera_fasta_STUDENT_NAME.sh
 
 #copy new NCBI fasta script and ecoPCR script into your folder 
 
@@ -213,6 +213,15 @@ At the end of this we will have a taxonomy database that obitools can use!
 
 ## BOLD FASTA Download
 
+#in your folder there should be a file called "bold_lepidoptera_fasta_STUDENT_NAME.sh"
+
+#open that folder using nano
+
+nano bold_lepidoptera_fasta
+
+#edit this script in three lcoations 
+
+### Resources on BOLD Dowload
 Bold API - https://v3.boldsystems.org/index.php/resources/api?type=webservices
 
 List of Microlep families - https://en.wikipedia.org/wiki/Microlepidoptera
