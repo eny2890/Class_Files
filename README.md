@@ -1,5 +1,15 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
+## Wednesday, October 16, 2024
+* Edit and submit ecoPCR script
+* Presentation reviewing what we did/what we are going to do today
+* Edit and submit quality_control_YOURNAME.sh to complete fastqc, trimming, and fastqc files
+* Review our fastqc results before and after trimming
+#### If time/before next class:
+* Install R
+* Download the DATA folder from this git onto your personal computer
+* Start a R project in R studio, which includes a folder named "DATA"
+* Add the files from the DATA folder you downloaded from our github into your DATA folder in your R project
 ## Monday, October 14, 2024
 ### Goals for Today:
 * Make sure you have the NCBI API key installed and in the right spot in your Hipergator account (see "To Do Before Class on October 14, 2024 section" below for instructions)
