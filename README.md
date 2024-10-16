@@ -1,15 +1,45 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 ## Wednesday, October 16, 2024
+### Goals:
 * Edit and submit ecoPCR script
 * Presentation reviewing what we did/what we are going to do today
-* Edit and submit quality_control_YOURNAME.sh to complete fastqc, trimming, and fastqc files
-* Review our fastqc results before and after trimming
-#### If time/before next class:
-* Install R
-* Download the DATA folder from this git onto your personal computer
-* Start a R project in R studio, which includes a folder named "DATA"
-* Add the files from the DATA folder you downloaded from our github into your DATA folder in your R project
+* Edit and submit fastqc_YOURNAME.sh to run the program 
+### If time/before next class:
+* Install RStudio
+
+#### Running EcoPCR
+Ecopcr is an application that is a part of the OBItools pipeline. Submit the code you edited on Monday (see instructions in October 14th section) and submit that script
+
+#### Running FastQC
+
+#let's start by copying the script(s) from the share folder for today
+
+navigate to your class folder in hipergator
+
+cp /blue/eny2890/share/OCT1624/* .
+
+#edit this script by replacing YOURNAME with your name. Similarly to what we have been doing
+
+#save that file with your name
+
+#submit the renamed file
+
+#### Install RStudio
+
+#after you are done, and BOTH jobs are submitted, install RStudio if you do not already have it
+
+#### After doing all of this....
+
+#while you are waiting to go over R with the rest of the class, see if you FASTQC script is done running
+#if it is, view some of the fastQC files (see instructions in the screenshot below), google what each of the categories mean about our data quality. These are not our final sequences, so remember, we expect our quality to be poor
+
+![image](https://github.com/user-attachments/assets/a7ad575b-d3d5-490c-8c08-f7a46a56aa77)
+
+the username@remote_host is what you use to login on Hipergator (i.e. lhendrick@hpg.rc.ufl.edu) and the second pathway is to the location to where you want to save that html file. Make sure the first file pathway ends with one of the many .html files, whichever one you choose is random
+
+then, in a terminal not connected to hipergator, do the second line of code and the Fastqc report will open in another window
+
 ## Monday, October 14, 2024
 ### Goals for Today:
 * Make sure you have the NCBI API key installed and in the right spot in your Hipergator account (see "To Do Before Class on October 14, 2024 section" below for instructions)
