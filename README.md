@@ -12,12 +12,49 @@ This will be a document that we will use as a class to keep track of what we did
 * After obicut runs, edit and submit pairmatch_YOURNAME.sh
 * After pairmatch runs, edit and submit cutadapt_YOURNAME.sh
 
+#### Review 
+![image](https://github.com/user-attachments/assets/b62c3517-87d7-4172-bf48-2f88daff243f)
+
+After sequencing, all of the pooled samples were demultiplexed, or seperated by their unique barcodes. There are two files, a forward, and reverse read for each of the indivual samples we submitted.
+
+These barcodes were used to seperate out the indivual samples from the pooled samples, and then cut off from our sequences.
+
+Last week, we looked at the quality of each the forward and reverse reads of each of these samples. I have uploaded some of the fastqc files for us to view onto our github. Download one of the .html files onto your computure, and go to your file explorer/finder to open it and view it.
+
+#### OBIannotate
+Obiannotate will take all of the individual fastq files that have already been 
+
+#### OBIcut
+
+#### Pairmatch
+Pairmatch joins overlapping forward and reverse reads, and saves them as a .fastq file.
+
+Wait to do this step until obicut has run.
+
+#edit pairmatch_YOURNAME.sh with your folder and email and save it with your name. Then, submit that edited file.
+
+#### Cutadaptor
+Cutadaptor will cut out the illumina adaptors added to the forward and reverse ends of our DNA before sequencing. They are what binded to the flow cell and allowed sequencing to take place. However, they are not apart of our target DNA and need to be removed.
+
+Wait to do this step until all the previous steps have been ran.
+
+#edit cutadaptor_YOURNAME.sh with your folder and email and save it with your name. Then, submit that edited file.
+
+#### Rstudio
+#install Rstudio if you have not already done so
+#https://www.youtube.com/watch?v=FIrsOBy5k58 
+#togehter, we will create a project for this class and a data folder
+#install these packages:
+> install.packages("BiocManager")
+> BiocManager::install("Biostrings")
+> install.packages(c("devtools", "dplyr"))
+> library(devtools)
+> install_github("ropensci/bold")
+> install_github("cran/XML")
+> install_github("tobiasgf/lulu")
+>  install.packages(c("CHNOSZ", "optparse"))
 
 
-
-
-
-  
 ## Wednesday, October 16, 2024
 ### Goals:
 * Edit and submit ecoPCR script
