@@ -30,7 +30,7 @@ Obiannotate will take all of the individual fastq files that have already been d
 
 #copy the folder with today's scripts into your own folder
 
-cp -r /blue/eny2890/share/OCT2124 /blue/eny2890/YOURFOLDER
+cp -r /blue/eny2890/share/OCT2124 /blue/eny2890/YOURFOLDER/OCT2124
 
 ########### OBIannotate part 2 since there was an error
 
