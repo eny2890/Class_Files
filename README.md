@@ -1,5 +1,23 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
+
+## Monday, October 21, 2024
+### Goals:
+* Review what has been done so far
+* View FastQCs
+* Combine all foward reads and reverse reads (OBIannotate_YOURNAME.sh) together
+* Cut out low quality reads (obicut_YOURNAME.sh)
+* Open RStudio, create project, install libraries
+### After class:
+* After obicut runs, edit and submit pairmatch_YOURNAME.sh
+* After pairmatch runs, edit and submit cutadapt_YOURNAME.sh
+
+
+
+
+
+
+  
 ## Wednesday, October 16, 2024
 ### Goals:
 * Edit and submit ecoPCR script
