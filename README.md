@@ -56,32 +56,26 @@ sbatch EDITED_SCRIPT
 
 #then edit, save, and submit
 
-#if this finishes running before next class, move onto OBIcut
+#STOP HERE. Try editing and submitting this before Wednesday.
 
-#### OBIcut
+#### OBIcut - wait until Wednesday
 OBIcut will trim reads to a specific length that we dictate based off of the quality of the sequences we saw in the fasta files
 
 #open (nano) the script called obicut_YOURNAME.sh and edit with with your folder and email and save it with your name. Then, submit that edited file.
 
-#if this finishes before next class, move onto Pairmatch
-
-#### Pairmatch
+#### Pairmatch - wait until Wednesday
 Pairmatch joins overlapping forward and reverse reads, and saves them as a .fastq file.
 
 Wait to do this step until obicut has run.
 
 #edit pairmatch_YOURNAME.sh with your folder and email and save it with your name. Then, submit that edited file.
 
-#if this finishes before next class, move onto Cutadaptor 
-
-#### Cutadaptor
+#### Cutadaptor - wait until Wednesday
 Cutadaptor will cut out the illumina adaptors added to the forward and reverse ends of our DNA before sequencing. They are what binded to the flow cell and allowed sequencing to take place. However, they are not apart of our target DNA and need to be removed.
 
 Wait to do this step until all the previous steps have been ran.
 
 #edit cutadaptor_YOURNAME.sh with your folder and email and save it with your name. Then, submit that edited file.
-
-#Yay! After this finishes running you will have trimmed, full-length barcode reads! Around 3 million of them! Now, we will move onto more filtering for higher-quality reads. (Which will result in better FASTQC reports!)
 
 ## Wednesday, October 16, 2024
 ### Goals:
