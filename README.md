@@ -30,20 +30,40 @@ Obiannotate will take all of the individual fastq files that have already been d
 
 #copy the folder with today's scripts into your own folder
 
-cp -r /blue/eny2890/share/OCT2124 /blue/eny2890/YOURFOLDER/OCT2124
+cp -r /blue/eny2890/share/OCT2124 /blue/eny2890/YOURFOLDER
 
 ########### OBIannotate part 2 since there was an error
 
-cp /blue/eny2890/share/OCT2124/updated_obiannotate_YOURNAME.sh /blue/eny2890/YOURFOLDER
+cp /blue/eny2890/share/OCT2124/updated_obiannotate_YOURNAME.sh /blue/eny2890/YOURFOLDER/OCT2124
+
+#navigate to the OCT2124, which should have the original 4 scripts as well as the new script with the error fixed
+
+cd /blue/eny2890/YOURFOLDER/OCT2124
+
+#to check and see if it is there use the ls (list) command
+
+ls
+
+#you should see 5 scripts total, including updated_obiannotate_YOURNAME.sh. Open that via nano and edit it with your information
+
+nano updated_obiannotate_YOURNAME.sh
+
+#change YOURFOLDER and YOUREMAIL, save the script with your name added
+
+#submit the script via sbatch - make sure it is the edited file saved with your name
+
+sbatch EDITED_SCRIPT
 
 #then edit, save, and submit
 
-#########
+#if this finishes running before next class, move onto OBIcut
 
 #### OBIcut
 OBIcut will trim reads to a specific length that we dictate based off of the quality of the sequences we saw in the fasta files
 
 #open (nano) the script called obicut_YOURNAME.sh and edit with with your folder and email and save it with your name. Then, submit that edited file.
+
+#if this finishes before next class, move onto Pairmatch
 
 #### Pairmatch
 Pairmatch joins overlapping forward and reverse reads, and saves them as a .fastq file.
@@ -52,6 +72,8 @@ Wait to do this step until obicut has run.
 
 #edit pairmatch_YOURNAME.sh with your folder and email and save it with your name. Then, submit that edited file.
 
+#if this finishes before next class, move onto Cutadaptor 
+
 #### Cutadaptor
 Cutadaptor will cut out the illumina adaptors added to the forward and reverse ends of our DNA before sequencing. They are what binded to the flow cell and allowed sequencing to take place. However, they are not apart of our target DNA and need to be removed.
 
@@ -59,25 +81,7 @@ Wait to do this step until all the previous steps have been ran.
 
 #edit cutadaptor_YOURNAME.sh with your folder and email and save it with your name. Then, submit that edited file.
 
-#### Rstudio
-#install Rstudio if you have not already done so
-
-#https://www.youtube.com/watch?v=FIrsOBy5k58 
-
-# together, we will create a project for this class and a data folder and download the metadata for this project. 
-
-Install these packages:
-* install.packages("BiocManager")
-* BiocManager::install("Biostrings")
-* install.packages(c("devtools", "dplyr"))
-* library(devtools)
-* install_github("ropensci/bold")
-* install_github("cran/XML")
-* install_github("tobiasgf/lulu")
-* install.packages(c("CHNOSZ", "optparse"))
-* install.packages(c("dplyr", "ggplot2"))
-
-#if we still have time after this, you and your group should begin brainstorming figures! I will walk around to help.
+#Yay! After this finishes running you will have trimmed, full-length barcode reads! Around 3 million of them! Now, we will move onto more filtering for higher-quality reads. (Which will result in better FASTQC reports!)
 
 ## Wednesday, October 16, 2024
 ### Goals:
