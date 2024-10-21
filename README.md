@@ -22,9 +22,20 @@ These barcodes were used to seperate out the indivual samples from the pooled sa
 Last week, we looked at the quality of each the forward and reverse reads of each of these samples. I have uploaded some of the fastqc files for us to view onto our github. Download one of the .html files onto your computure, and go to your file explorer/finder to open it and view it.
 
 #### OBIannotate
-Obiannotate will take all of the individual fastq files that have already been 
+Obiannotate will take all of the individual fastq files that have already been demutiplexed, and combine all the forward reads into a single file, with the names of the individual sample annotated on it, and combine all the reverse reads into a single annotated file.
+
+#copy the folder with today's scripts into your own folder
+
+cp -r /blue/eny2890/share/OCT2124 /blue/eny2890/YOURFOLDER
+
+#open (nano) the script called obiannotate_YOURNAME.sh and edit with with your folder and email and save it with your name. Then, submit that edited file.
+
+#after it is done running, we are going to look at the FASTQC files from the two (forward and reverse) fastq files that were created and discuss them as a class
 
 #### OBIcut
+OBIcut will trim reads to a specific length that we dictate based off of the quality of the sequences we saw in the fasta files
+
+#open (nano) the script called obicut_YOURNAME.sh and edit with with your folder and email and save it with your name. Then, submit that edited file.
 
 #### Pairmatch
 Pairmatch joins overlapping forward and reverse reads, and saves them as a .fastq file.
@@ -42,17 +53,20 @@ Wait to do this step until all the previous steps have been ran.
 
 #### Rstudio
 #install Rstudio if you have not already done so
+
 #https://www.youtube.com/watch?v=FIrsOBy5k58 
+
 #togehter, we will create a project for this class and a data folder
-#install these packages:
-> install.packages("BiocManager")
-> BiocManager::install("Biostrings")
-> install.packages(c("devtools", "dplyr"))
-> library(devtools)
-> install_github("ropensci/bold")
-> install_github("cran/XML")
-> install_github("tobiasgf/lulu")
->  install.packages(c("CHNOSZ", "optparse"))
+
+Install these packages:
+* install.packages("BiocManager")
+* BiocManager::install("Biostrings")
+* install.packages(c("devtools", "dplyr"))
+* library(devtools)
+* install_github("ropensci/bold")
+* install_github("cran/XML")
+* install_github("tobiasgf/lulu")
+* install.packages(c("CHNOSZ", "optparse"))
 
 
 ## Wednesday, October 16, 2024
