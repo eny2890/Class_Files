@@ -32,9 +32,13 @@ Obiannotate will take all of the individual fastq files that have already been d
 
 cp -r /blue/eny2890/share/OCT2124 /blue/eny2890/YOURFOLDER
 
-#open (nano) the script called obiannotate_YOURNAME.sh and edit with with your folder and email and save it with your name. Then, submit that edited file.
+########### OBIannotate part 2 since there was an error
 
-#after it is done running, we are going to look at the FASTQC files from the two (forward and reverse) fastq files that were created and discuss them as a class. These are already on github.
+cp /blue/eny2890/share/OCT2124/updated_obiannotate_YOURNAME.sh /blue/eny2890/YOURFOLDER
+
+#then edit, save, and submit
+
+#########
 
 #### OBIcut
 OBIcut will trim reads to a specific length that we dictate based off of the quality of the sequences we saw in the fasta files
