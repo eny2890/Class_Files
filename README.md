@@ -21,6 +21,10 @@ These barcodes were used to seperate out the indivual samples from the pooled sa
 
 Last week, we looked at the quality of each the forward and reverse reads of each of these samples. I have uploaded some of the fastqc files for us to view onto our github. Download one of the .html files onto your computure, and go to your file explorer/finder to open it and view it.
 
+![image](https://github.com/user-attachments/assets/a3a2514c-1b34-47ec-a03c-968b29b45097)
+
+Today, we are working on formating and assembling our forward and reverse paired end reads. To do this we are 
+
 #### OBIannotate
 Obiannotate will take all of the individual fastq files that have already been demutiplexed, and combine all the forward reads into a single file, with the names of the individual sample annotated on it, and combine all the reverse reads into a single annotated file.
 
@@ -56,7 +60,7 @@ Wait to do this step until all the previous steps have been ran.
 
 #https://www.youtube.com/watch?v=FIrsOBy5k58 
 
-#togehter, we will create a project for this class and a data folder
+#togehter, we will create a project for this class and a data folder and download the metadata for this project. 
 
 Install these packages:
 * install.packages("BiocManager")
@@ -67,8 +71,9 @@ Install these packages:
 * install_github("cran/XML")
 * install_github("tobiasgf/lulu")
 * install.packages(c("CHNOSZ", "optparse"))
+* install.packages(c("dplyr", "ggplot2"))
 
-
+#if we still have time after this, you and your group should begin brainstorming figures! I will walk arond to help.
 ## Wednesday, October 16, 2024
 ### Goals:
 * Edit and submit ecoPCR script
