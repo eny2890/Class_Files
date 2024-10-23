@@ -1,6 +1,35 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
+## Wednesday, October 23, 2024
+### Goals:
+* Edit and submit sequence_clean.sh script
+* Open R, download data and packages into it
+* Make an R package
+* Download and upload data from github into R
+* Brainstorm figures together for project, make a list of data needed to make figures
+* Go on google scholar to look at published metabarcoding papers for figure ideas if stuck
+
+#### Submit script for sequence cleaning
+
+#copy the folder with today's scripts into your own folder
+
+cp -r /blue/eny2890/share/OCT2324 /blue/eny2890/YOURFOLDER
+
+#navigate to the new folder, make the necessary changes and submit the script
+
+#### R Studio
+
+#watch video explaing R studio: https://www.youtube.com/watch?v=FIrsOBy5k58
+
+#open R studio
+
+#make a R studio project
+
+#practice importing data
+
+#brainstorm figure ideas - if you are stuck go to google scholar and look around at other metabarcoding study figures
+
 ## Monday, October 21, 2024
 ### Goals:
 * Review what has been done so far
