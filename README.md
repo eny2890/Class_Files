@@ -87,17 +87,17 @@ sbatch EDITED_SCRIPT
 
 #STOP HERE. Try editing and submitting this before Wednesday.
 
-#### OBIcut - wait until Wednesday
+#### OBIcut - do not do, now in sequence_clean script instead
 OBIcut will trim reads to a specific length that we dictate based off of the quality of the sequences we saw in the fasta files
 
 #we did this job via sequence_clean instead
 
-#### Pairmatch - wait until Wednesday
+#### Pairmatch - do not do, now in sequence_clean script instead
 Pairmatch joins overlapping forward and reverse reads, and saves them as a .fastq file.
 
 #we did this job via sequence_clean instead
 
-#### Cutadaptor - wait until Wednesday
+#### Cutadaptor - do not do, now in sequence_clean script instead
 Cutadaptor will cut out the illumina adaptors added to the forward and reverse ends of our DNA before sequencing. They are what binded to the flow cell and allowed sequencing to take place. However, they are not apart of our target DNA and need to be removed.
 
 #we did this job via sequence_clean instead
