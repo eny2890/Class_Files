@@ -1,6 +1,23 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
+## Monday, October 28, 2024
+### Goals:
+* Debug sequence clean script together, and resubmit
+* Add datafiles (from github) into R
+* Make 3 figures together - a map of our sites, abundance of microleps from each site, and correlation between microlep and macrolep abunances
+
+#### Resources:
+Making maps in R:
+* https://r.geocompx.org/adv-map
+* https://www.geeksforgeeks.org/making-maps-with-r/
+
+Pearson Correlation:
+* https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
+* https://www.scribbr.com/statistics/pearson-correlation-coefficient/
+* https://www.youtube.com/watch?v=2yLpEeO0QNc
+
+
 ## Wednesday, October 23, 2024
 ### Goals:
 * Edit and submit sequence_clean.sh script
