@@ -12,6 +12,13 @@ Making maps in R:
 * https://r.geocompx.org/adv-map
 * https://www.geeksforgeeks.org/making-maps-with-r/
 
+Example map made with the exact data we have and R
+![image](https://github.com/user-attachments/assets/d0d9ff57-34fa-4527-8d23-7b706c37ed47)
+
+Figure 1. Location of study sites in relation to the urbanization density of Gainesville, FL. 
+The proportion of developed land cover within a 1-km (A) and 10-km (B) buffer  is represented by a color gradient. 
+Location of study county within the state of Florida, USA is shown in panel C. 
+
 Pearson Correlation:
 * https://en.wikipedia.org/wiki/Pearson_correlation_coefficient
 * https://www.scribbr.com/statistics/pearson-correlation-coefficient/
