@@ -16,11 +16,19 @@ library(dplyr)
 
 library(ggplot2)
 
+install.packages("car")
+
 library(car)
+
+install.packages("sf")
 
 library(sf)
 
+install.packages("maps")
+
 library(maps)
+
+install.packages("ggspatial")
 
 library(ggspatial)
 
