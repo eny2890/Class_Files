@@ -112,13 +112,11 @@ AUCA_Plot <- ggplot(AUCA, aes(x = eventDate)) +
   geom_smooth(aes(y = macroMoths, color = "Set 2"), method = "lm", se = FALSE) +
   
   labs(
-  
     title = "Micro and Macro Moth Abundances in Austin Cary Forest",
     
     x = "Date",
     
-    y = "Abundance"
-    
+    y = "Abundance"   
   ) +
   
   scale_color_manual(name = "Dataset", values = c("Set 1" = "blue", "Set 2" = "red")) +
