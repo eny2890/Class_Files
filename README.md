@@ -1,11 +1,23 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
-## Monday, October 28, 2024
+## Tuesday, October 30, 2024
 ### Goals:
-* Debug sequence clean script together, and resubmit
+* Submit trimmomatic script
 * Add datafiles (from github) into R
-* Make 3 figures together - a map of our sites, abundance of microleps from each site, and correlation between microlep and macrolep abunances
+* Make 3 figures together - a map of our sites, abundance of microleps from each site, and correlation between microlep and macrolep abundances
+
+#### Trimmomatic script
+
+Trimmomatic is another step in ensuring we only have high-quality sequences left before we begin the sequence clustering and identification steps. It removes sequences that have a phred score (quality indicator of sequences) of 33 or lower. Therefore, we are ensuring there will be low potential misidentifications due to poor sequences.
+
+#Copy the trimmomatic (trimmomatic_YOURNAME.sh) script from the OCT3024 folder into your own folder on Hipergator
+
+#Edit the script with your information, and submit it.
+
+#### R Practice
+
+We will do a guided R exercise to make a few figures together in class based on our data. These figures can be used on your poster going forward.
 
 #### Resources:
 Making maps in R:
