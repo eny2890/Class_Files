@@ -10,7 +10,7 @@ R-Script:
 ########## October 28th, 2024 #####################################################
 ########## Lillian Hendrick #######################################################
 
-# load in libraries
+#load in libraries
 library(dplyr)
 library(ggplot2)
 library(car)
@@ -61,7 +61,7 @@ ggsave("plot/JOMA_micro_moth_abundance.jpeg", JOMA_micro_moth_abundance)
 
 ########### Figure 2 - Micromoth and Macromoth Abundance Correlation and Plot #############
 
-# from Figure 1, we have all of our moth abundances divided by site, choose one going forward
+#from Figure 1, we have all of our moth abundances divided by site, choose one going forward
 
 #calculate the colinearity between the micro and macro moths
 AUCA_correlation <- cor(AUCA$microMoths, AUCA$macroMoths, method = "pearson")
