@@ -13,6 +13,22 @@ This will be a document that we will use as a class to keep track of what we did
 #copy either the chimera removal script from the NOV624 folder in share, or the entire folder into your own directory
 #modify script and run it
 
+#### ANOVA R code to run (ran out of time in class)
+# Using the 'iris' dataset for ANOVA
+# Testing if the mean Sepal.Length differs between Species
+
+# One-way ANOVA
+anova_model <- aov(Sepal.Length ~ Species, data = iris)
+summary(anova_model)
+
+# Plotting Sepal Length by Species
+ggplot(iris, aes(x = Species, y = Sepal.Length, fill = Species)) +
+  geom_boxplot() +
+  labs(title = "ANOVA: Sepal Length by Species",
+       x = "Species",
+       y = "Sepal Length") +
+  theme_minimal()
+  
 ## TO TRY BEFORE MONDAY CLASS:
 
 R-Script:
