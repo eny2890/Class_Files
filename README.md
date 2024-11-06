@@ -1,6 +1,18 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
+# Wednesday, November 6, 2024
+### Goals:
+* Run chimera removal script
+* Go over the pipeline again
+* Learn about statistics
+* Talk about your own groups statistics and make a plan for what to do with our data once we finish the pipeline
+
+#### Run chimera removal script
+
+#copy either the chimera removal script from the NOV624 folder in share, or the entire folder into your own directory
+#modify script and run it
+
 ## TO TRY BEFORE MONDAY CLASS:
 
 R-Script:
