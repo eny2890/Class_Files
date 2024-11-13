@@ -1,6 +1,24 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
+# Wednesday, November 13, 2024
+### Goals:
+* Fill out this worksheet: https://docs.google.com/forms/d/e/1FAIpQLSc8C-K7zSmFpvv4NMcE_2I1aokMyu3X--LQ4JbHjKogZ1eofA/viewform?usp=sf_link
+* Figure out a plan for your analyses and results, and list out all of the data you will need from me, or to gather yourselves to do the analyses
+* Discuss with your group what your figure(s) will look like
+* Work on poster revisions or additions
+
+#### Data you will have available from me by next Monday:
+* Identifications of our sequences at the species, genus, subfamily, and family levels
+* Aligned consensus sequences that can be used to construct phylogenetic trees
+* Large database full of micro-moth trait data (color, size, diet)
+* Site metadata (temperature, classification, location, etc)
+* Wolbachia presence/absence in each of the samples
+
+#### Plan for the rest of the semester:
+* Time to work as a group on the analyses and figures using the data we will have next Monday
+* I will be available during class for help and suggestions on your analyses. 
+
 # Wednesday, November 6, 2024
 ### Goals:
 * Run chimera removal script
