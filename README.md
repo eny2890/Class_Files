@@ -1,6 +1,20 @@
 # Class Schedule
 This will be a document that we will use as a class to keep track of what we did/are planning on doing in class, that way if you miss a session, are confused about something and want to revisit it, or didn't finish all the steps together in class, you can revisit this README file to catch up.
 
+# Wednesday, November 20, 2o24
+### Goals:
+* Work on analyses and getting figures for poster
+
+#### Download files from our repository
+
+Download 'identifications.csv', 'metabarcoding_cluster_data.csv' and '11_20_24.R' to your local computer
+Open the R script (if you click on it, it should open in RStudio right away)
+Import in the two .csv files you create
+Go through, complete the first part of the code to get figures that you can use on your poster, the plots will be down in the plot side after you finish.
+You can save the image by clicking export and downloading it to your computer.
+
+After doing the first chunk of code (if desired), go to your teams code, and complete it to get a formated dataframe that you can use to do your team specific analyses.
+
 # Wednesday, November 13, 2024
 ### Goals:
 * Fill out this worksheet: https://docs.google.com/forms/d/e/1FAIpQLSc8C-K7zSmFpvv4NMcE_2I1aokMyu3X--LQ4JbHjKogZ1eofA/viewform?usp=sf_link
